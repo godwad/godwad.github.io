@@ -1,0 +1,566 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><div id="myscoll"></div><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>emby打造家庭影院 | 不学无墅</title><meta name="author" content="小宋今天吃什么"><meta name="copyright" content="小宋今天吃什么"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Emby多媒体影音服务保姆教程，非专业__财经头条 Excerpt作者：该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。Tip：Emby使用硬件转码功能是需要开会员，这个功…   作者：David的日常 该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。 Tip： Emby使用硬件转码功能是需要开会员，这个功能不是必须的，不表示不买会员就不能用Emby看视频了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="emby打造家庭影院">
+<meta property="og:url" content="https://godwad.github.io/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="不学无墅">
+<meta property="og:description" content="Emby多媒体影音服务保姆教程，非专业__财经头条 Excerpt作者：该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。Tip：Emby使用硬件转码功能是需要开会员，这个功…   作者：David的日常 该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。 Tip： Emby使用硬件转码功能是需要开会员，这个功能不是必须的，不表示不买会员就不能用Emby看视频了。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-api.boxmoe.com//large/0072Vf1pgy1foxlhgd2lzj31hc0u0dvn.jpg">
+<meta property="article:published_time" content="2023-01-09T08:28:08.000Z">
+<meta property="article:modified_time" content="2023-01-09T06:45:25.636Z">
+<meta property="article:author" content="小宋今天吃什么">
+<meta property="article:tag" content="wistbean，肯定会，java，python，电台，教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-api.boxmoe.com//large/0072Vf1pgy1foxlhgd2lzj31hc0u0dvn.jpg"><link rel="shortcut icon" href="https://pic3.zhimg.com/v2-a3cab7b5bb88b9eb83370f1ec3db6f86_r.jpg"><link rel="canonical" href="https://godwad.github.io/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"top-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'emby打造家庭影院',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-01-09 14:45:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script>-<link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"> <link rel="stylesheet" href="/css/universe.css"> -<link rel="stylesheet" href="/css/mouse.css"> -<link rel="stylesheet" href="/css/texiao.css"> -<link rel="stylesheet" href="https://npm.elemecdn.com/ethan4116-blog/lib/css/plane_v2.css"> -<link rel="stylesheet" href="/css/cat.css"> -<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css"> -<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/poem/poem.css"> -<link rel="stylesheet" href="/css/custom.css"> -<link rel="stylesheet" href="/css/rightmenu.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.css" /><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-blog@2.0.4/css/runtime/runtime.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="不学无墅" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/30/xgm0a3.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><i class="fa-fw fas fa-home faa-tada"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/bangumis/"><i class="fa-fw fas fa-bilibili faa-tada"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/blender/"><i class="fa-fw fas fa-envelope faa-tada"></i><span> blender</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/pr/"><i class="fa-fw fas fa-music faa-tada"></i><span> pr</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/ae/"><i class="fa-fw fas fa-video faa-tada"></i><span> ae</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/ue5/"><i class="fa-fw fas fa-heart faa-tada"></i><span> ue5</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/gallery/"><i class="fa-fw fas fa-heart faa-tada"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/web/"><i class="fa-fw fas fa-envelope faa-tada"></i><span> 导航</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/website2/"><i class="fa-fw fa-envelope faa-tada"></i><span> 导航2</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img-api.boxmoe.com//large/0072Vf1pgy1foxlhgd2lzj31hc0u0dvn.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">不学无墅</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i></a></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><i class="fa-fw fas fa-home faa-tada"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/bangumis/"><i class="fa-fw fas fa-bilibili faa-tada"></i><span> 追番</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/blender/"><i class="fa-fw fas fa-envelope faa-tada"></i><span> blender</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/pr/"><i class="fa-fw fas fa-music faa-tada"></i><span> pr</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/ae/"><i class="fa-fw fas fa-video faa-tada"></i><span> ae</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/ue5/"><i class="fa-fw fas fa-heart faa-tada"></i><span> ue5</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/gallery/"><i class="fa-fw fas fa-heart faa-tada"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/web/"><i class="fa-fw fas fa-envelope faa-tada"></i><span> 导航</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/website2/"><i class="fa-fw fa-envelope faa-tada"></i><span> 导航2</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">emby打造家庭影院</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-09T08:28:08.000Z" title="发表于 2023-01-09 16:28:08">2023-01-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-01-09T06:45:25.636Z" title="更新于 2023-01-09 14:45:25">2023-01-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2/">家庭影院</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="emby打造家庭影院"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Emby多媒体影音服务保姆教程，非专业-财经头条"><a href="#Emby多媒体影音服务保姆教程，非专业-财经头条" class="headerlink" title="Emby多媒体影音服务保姆教程，非专业__财经头条"></a>Emby多媒体影音服务保姆教程，非专业__财经头条</h1><blockquote>
+<h2 id="Excerpt"><a href="#Excerpt" class="headerlink" title="Excerpt"></a>Excerpt</h2><p>作者：该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。Tip：Emby使用硬件转码功能是需要开会员，这个功…</p>
+</blockquote>
+<hr>
+<p>作者：David的日常</p>
+<p>该篇教程主要讲解安装emby，简单使用和硬件转码流畅播放4K视频。</p>
+<p>Tip：</p>
+<p>Emby使用硬件转码功能是需要开会员，这个功能不是必须的，不表示不买会员就不能用Emby看视频了。</p>
+<p>硬件转码主要在网页端播放视频（客户端播放好像不需要），或者外网播放视频（网速和流量问题，一般将4K视频转为1080P视频进行播放）才需要用到。硬件转码是利用显卡进行转码，效率更高更快，同时可以减轻cpu负担，一般看4K这些高分辨率视频才需要用到硬件转码，1080P这些是不用的。</p>
+<p>主要流程目录：</p>
+<p>1.安装Intel-GPU-TOP</p>
+<p>2.安装Emby</p>
+<p>3.使用Emby</p>
+<p>3.1会员和硬解</p>
+<p>3.2转码对比</p>
+<p>3.3添加媒体库</p>
+<p>3.4琐碎的设置</p>
+<p>4.总结</p>
+<p>1.安装Intel-GPU-TOP</p>
+<p>如果需要硬解转码功能，就需要先开启显卡，这里不建议再使用脚本的方式去打开核显了，建议安装插件”Intel GPU TOP“</p>
+<p>去到应用商店“APPS”，搜索”Intel GPU TOP“进行安装</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/145/w600h345/20220714/be96-6a87a7325243eae775750ce56190e39b.png" alt=""></p>
+<p>Intel GPU TOP的作用就是开启GPU，如果之前有go文件或者脚本开启gpu的代码都不需要了，记得都删了，例如下面这些</p>
+<p>modprobe i915</p>
+<p>ls /dev/dri</p>
+<p>chmod 777 /dev/dri/renderD128</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/37/w600h237/20220714/ae7f-ff7841deae2551311aca6f4dc0598b4e.png" alt=""></p>
+<p>安装完成</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/108/w600h308/20220714/795c-58b4573c00a035c5fc8989fc0ed1e036.png" alt=""></p>
+<p>这个插件是点不开，没有设置的项，安装了就行</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/736/w600h136/20220714/c618-802a321d5c4895ca031e5686c2c63108.png" alt=""></p>
+<p>2.安装Emby</p>
+<p>去到应用商店“APPS”，搜索“emby”进行下载安装</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/69/w600h269/20220714/22ea-aed8c82a92762e219b75fad6584c4144.png" alt=""></p>
+<p>可以看到这里有好几个版本，装官方这个就行了，点击”Install“</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/125/w600h325/20220714/aa33-0553a5ba740d24f647f493c8ad73dc27.png" alt=""></p>
+<p>映射存放影片的路径，建议设置为”/mnt/user/“</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/739/w600h139/20220714/168c-ccaa334f05f919ccd689861bc3e0b565.png" alt=""></p>
+<p>设置UID和GID，</p>
+<p>输入：id 用户名比如查看user该用户UID和GID，则 id user</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/795/w600h195/20220714/ae77-b7e085d8c56587bef0e2af89db7ac0a3.png" alt=""></p>
+<p>获得uid=1000   gid=100</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/795/w600h195/20220714/0a05-be2074fd04f97dbeafdf506f3e51b8b5.png" alt=""></p>
+<p>不要乱设置或者直接填下面这个，不然后面可能会有权限问题</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/723/w600h123/20220714/a17e-7b51f82a78a04611532e08e9e94fe814.png" alt=""></p>
+<p>这里有隐藏项的，只是提醒一下，不用设置</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/727/w600h127/20220714/8fd4-338700ad2fb83bca7b5f900a44d05402.png" alt=""></p>
+<p>要硬解要添加一个参数</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/1/w600h201/20220714/99d9-bdfc8a52093359d709ba36fd62df83c3.png" alt=""></p>
+<p>/dev/dri</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/28/w600h228/20220714/1239-dc96c22bc7c6ec912ef16eac3c46125c.png" alt=""></p>
+<p>大致这样就行了，点击安装就行了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/369/w600h569/20220714/4256-2ee0f0eae450c3385336bb4b1b2d3303.png" alt=""></p>
+<p>3.使用Emby</p>
+<p>安装成功以后，打开浏览器，输入IP:8096(IP地址为unraid的地址)，如果看到这个界面就表示已经安装成功了。语言可以设置为“简体中文”。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/36/w600h236/20220714/ef31-4605409534eed0363b43f21a823bbef3.png" alt=""></p>
+<p>设置管理员账号（它给的用户名不好记可以自行修改），如果界面还是英文可以刷新一下网页</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/121/w600h321/20220714/5405-5943a7ab5f1051cd084617b752682a1d.png" alt=""></p>
+<p>媒体库先不添加，后面再添加</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/16/w600h216/20220714/974e-889c6935bcce4e4191c5ac99c4f46967.png" alt=""></p>
+<p>国家“China”，要在P字面里面才能找到，应该是按”People’s Republic of China“排序吧</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/64/w600h264/20220714/bd04-9b16014eba780ece0fa7b0b54d7cb6ec.png" alt=""></p>
+<p>有公网的话可以开启</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/780/w600h180/20220714/c8c7-f8ade34c4b4e4eaa2947c779c6340e86.png" alt=""></p>
+<p>打勾”接受条款“，不然也用不了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/36/w600h236/20220714/3306-42603da0b0f6c8c77ef86fe677c593ab.png" alt=""></p>
+<p>这样就完成简单设置了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/19/w600h219/20220714/468e-87ec8c57e4765914b45759317b08865c.png" alt=""></p>
+<p>输入用户名和密码进行登录</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/107/w600h307/20220714/aa53-15ae5851aa2f88397bfa7ba4541e5a4e.png" alt=""></p>
+<p>不是会员这里是会有提示的，除了不能硬解转码，其他都一样，不影响使用</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/107/w600h307/20220714/e50e-5adf0e04b06579914207ec2cd3c57269.png" alt=""></p>
+<p>点击右上角齿轮，去到Emby管理界面</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/107/w600h307/20220714/2d48-11e39d68421c21dd9e1e3f3f393eae94.png" alt=""></p>
+<p>管理界面就是这样的了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/7ac6-a7ef14a96fe2c88d550d068d35ae6b37.png" alt=""></p>
+<p>3.1会员和硬解</p>
+<p>如果是Emby会员，先去密钥激活</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/212/w600h412/20220714/9ab1-2d86140ff3af969421a20e01bee6ce7a.png" alt=""></p>
+<p>激活以后这里会有一个小金牌</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/31/w600h231/20220714/7ef5-5ebbaa5de9f66397eccefb0bcdcb360d.png" alt=""></p>
+<p>转码，点击”高级“可以看到硬解解码器（空白没有的话，可以重启emby试试），这就表示显卡开启正常</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/147/w600h347/20220714/d4c2-e638fe2c0d59f994da0c63415cca5be7.png" alt=""></p>
+<p>这里我将QuickSync都排第一了（或者VAAPI就不勾选了），其他就不用设置了默认就行，点击底部保存</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/147/w600h347/20220714/e670-72b86574ec4f70896c9092e6f8cf122d.png" alt=""></p>
+<p>检查硬解是否成功可以播放4K视频，看面板GPU有没有反应。“Plugin篇 | GPU Statistics显示GPU状态”</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/773/w600h173/20220714/1c87-1df2bcf9f7c25355cf2f5477b48c177a.png" alt=""></p>
+<p>3.2转码对比</p>
+<p>4K转码非专业对比（4K→4K，主要是因为不想安装客户端，想直接网页播放，不建议学习），后期可能参考网上教程加入脚本调用外部播放器进行播放。</p>
+<p>扎克·施奈德版正义联盟  25.8 GB分辨率  3840x2160位深度  8 bit</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/fc66-36161fc1435c29d13e49934bcf276192.png" alt=""></p>
+<p>4K - 120Mbps</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/bfbf-af5a156dd0b85705bf5ddbe8a4a9c7ac.png" alt=""></p>
+<p>软件解码（CPU解码）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/90/w600h290/20220714/c36b-6ac3695a0c2c5069bdcc06bf5726c35a.png" alt=""></p>
+<p>可以看到CPU已经有一条爆红的了，压力还是比较大的</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/212/w561h451/20220714/ea13-03e34f3abb95b108901ba6c1baa77264.png" alt=""></p>
+<p>硬解解码（显卡解码）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/92/w600h292/20220714/c7d6-7e88c4dc66337b0919826c6705ce0bad.png" alt=""></p>
+<p>CPU占用情况和上面对比，明显下降很多</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/210/w562h448/20220714/ba0f-bb5857cc6be11fb37948b86082051f6a.png" alt=""></p>
+<p>当然硬解不是万能的，对于10bit这种影片，硬解播放不了（转1080p是没问题的），软解有点卡但还可以播放</p>
+<p>信条  45.4GB分辨率  3840x2160位深度  10 bit</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/bdb2-b5b14502e23d0768eab13aaf4bd8749b.png" alt=""></p>
+<p>软件解码（CPU解码）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/94/w600h294/20220714/1222-2a2568e4cc25e4177297f2b8ec406771.png" alt=""></p>
+<p>全红了，可以看到曲线显示CPU占用极高</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/208/w562h446/20220714/7c9f-26e4a982157a4829ac8e6f573b817ab9.png" alt=""></p>
+<p>硬解解码（显卡解码）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/95/w600h295/20220714/0406-5f30574c02eacc8950a95646e94e424d.png" alt=""></p>
+<p>是没什么占用，但是显示画屏（不知道属不属于emby的bug了），不能正常播放</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/207/w560h447/20220714/ff22-ad7186c359686a34c8bfc32d226be200.png" alt=""></p>
+<p>3.3添加媒体库</p>
+<p>创建一个媒体库</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/24/w600h224/20220714/933b-7c53a22d8feb96f42e8115c284b83a15.png" alt=""></p>
+<p>选择内容类型，这个不要乱选（电影就选电影，电视剧就选电视节目），不然刮削影片资料就会有问题的</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/7/w600h207/20220714/c69e-0bdc1448f1e97f5899ed24a02aa38625.png" alt=""></p>
+<p>添加电影的文件路径</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/7/w600h207/20220714/1d87-1c4b59180ad27b11b8d1da5314edbadc.png" alt=""></p>
+<p>在”/mnt“映射的路径里面，选存放电影的文件夹（比如这里movie_test文件夹存放3部电影）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/85/w600h285/20220714/86df-ff5bdec5e65c88838ed78f99a73decd0.png" alt=""></p>
+<p>元数据下载设置（刮削影片的资料）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/174/w600h374/20220714/7c99-019fa912b211600bb22d1dc741cdbc0d.png" alt=""></p>
+<p>元数据下载器，建议只选TMDB（TheMovieDb），这样数据比较全，小白的话个人不建议都选上。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/275/w600h475/20220714/47a3-d87b809679a81e4ea566bda5ad52df34.png" alt=""></p>
+<p>建议参考我一样设置（没有特别提到的，默认即可）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/360/w600h560/20220714/ddda-dd61aaa2f1d609355f135087e855d141.png" alt=""></p>
+<p>回到上面来，打开“显示高级设置”</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/771/w600h171/20220714/00e9-eaa3fc25560d78f8850a7d7293efc89e.png" alt=""></p>
+<p>这里就会多了一个“提前下载图片”，勾选上，不然图片要点开每个页面才会下载数据，比较麻烦。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/121/w600h321/20220714/1bb2-22eb57da0a031bf2e1210207c0a3e02b.png" alt=""></p>
+<p>字幕因为我很少用（默认设置），自行设置即可，没问题就点击保存。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/108/w600h308/20220714/001e-f62a4a6f7709a9c06957de616588ec43.png" alt=""></p>
+<p>回到首页，看看电影情况</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/25/w600h225/20220714/f67a-3c497201b73f553c4ba9de9e369658fa.png" alt="">电影的海报都刮削出来了</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/13/w600h213/20220714/4936-787eae2e8f3026e7f6d95261445a1ea3.png" alt=""></p>
+<p>如果影片没有出来，可以点击下面“扫描媒体库文件”</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/159/w600h359/20220714/0cd8-9139b360dcfa07930738ee47c508a9c4.png" alt=""></p>
+<p>介绍，演员数据什么的都有</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/d27b-e171b29cd1c7e3b2f0661597828e9b6c.png" alt=""></p>
+<p>如果刮削数据有缺失的建议改一下nas上级路由器的hosts，不要改unraid上的hosts改了也没有效果的，如果是电脑使用tmm刮削影片，也可以改电脑上的hosts。</p>
+<p>api.thetvdb.com</p>
+<p>api.themoviedb.org</p>
+<p>不会修改hosts的可以看下面教程“基础篇 | Hosts自定义修改”</p>
+<p>3.4琐碎的设置</p>
+<p>这里不会提及每一个设置，没提到的默认就行了，不会的没必要乱设置。</p>
+<p>显示为了更加统一可以将“设置主题”，设为“Dark”（这里是没有保存项的，点一下其他页面就会保存刷新）</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/150/w600h350/20220714/e419-f1ed3145893211975c941cd931508052.png" alt=""></p>
+<p>主题曲看自己能不能接受，因为有时候会被吓一跳播放音乐声音有点大</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/85/w600h285/20220714/f9a9-04a3dafbc161060b7bd83aaf9fea7763.png" alt=""></p>
+<p>设置背景图的效果</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/93/w600h293/20220714/39d4-31d979feef7e5264d49ded82f9888353.png" alt=""></p>
+<p>主屏幕</p>
+<p>模块没有的就选“无”，按自己实际情况</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/36/w600h236/20220714/40c4-162cd02cbc01d1b480dac76e921a9234.png" alt=""></p>
+<p>字幕</p>
+<p>这个选择中文字幕就行</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/8/w600h208/20220714/c822-4c278bd7995bc1832136d0127f5862d0.png" alt=""></p>
+<p>计划任务</p>
+<p>这里重点说一下，有些人的nas没有运行什么，硬盘老是被调用不能休息，就是emby的计划任务没设置。设置每一个任务执行的原则就是尽可能时间集中一点（我是直接统一时间执行），不要相隔时间过久，硬盘刚开始休眠，任务又开始。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/255/w600h455/20220714/8bc0-54992e149a8d38b5b6576c8089bdd64c.png" alt=""></p>
+<p>点开看看里面设置</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/778/w600h178/20220714/ae78-df3389fa20e09e9c2831977766deafdb.png" alt=""></p>
+<p>这些其实没必要知道中文意思（也可以网页翻译），一般可以设置白天空闲时候执行，先添加时间，再删除原来任务的时间。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/5/w600h205/20220714/84bb-8892dd728cc24e8ebbc64d849fa6ed38.png" alt=""></p>
+<p>我一般都是统一时间执行的，时间限制不用填</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://n.sinaimg.cn/sinakd20220714s/31/w600h231/20220714/003e-f00fb50fa3d9adbe0befa3f027c2a83a.png" alt=""></p>
+<p>4.总结</p>
+<p>有人说Plex刮削能力NB，有人说Jellyfin硬解转码免费，适合自己的才是最好的。</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>emby打造家庭影院</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://godwad.github.io/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/">https://godwad.github.io/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>����</h><div class="post-copyright-cc-info"><h>小宋今天吃什么</h></div></div><div class="post-copyright-c"><h>������</h><div class="post-copyright-cc-info"><h>2023-01-09</h></div></div><div class="post-copyright-u"><h>������</h><div class="post-copyright-cc-info"><h>2023-01-09</h></div></div><div class="post-copyright-c"><h>����Э��</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://img-api.boxmoe.com//large/0072Vf1pgy1foxlhgd2lzj31hc0u0dvn.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/12/19/%E7%A1%AC%E4%BB%B6%E8%8C%B6%E8%B0%88/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http:///p1.qhimg.com/t01662406687cf7219b.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">硬件茶谈</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/30/xgm0a3.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">小宋今天吃什么</div><div class="author-info__description">试图在所有的混乱中清醒一点。（目前网站被墙了，经常打不开，可以科学上网解决此问题)</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/Akilarlxh" target="_blank" title="Github"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dragon"></use></svg></a><a class="social-icon faa-parent animated-hover" href="mailto:Akilarlxh@gmail.com" target="_blank" title="Email"><i class="fa-fw fas fa-envelope faa-tada"></i></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/186775262" target="_blank" title="Bilibili"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-bilibili"></use></svg></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">来听首歌吧！<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=250 height=86 src="//music.163.com/outchain/player?type=2&id=1329938686&auto=1&height=66"></iframe></div></div><div class="xpand" style="height:200px;"><canvas class="illo" width="800" height="800" style="max-width: 200px; max-height: 200px; touch-action: none; width: 640px; height: 640px;"></canvas></div><script src="https://npm.elemecdn.com/ethan4116-blog/lib/js/other/two-people/twopeople1.js"></script><script src="https://npm.elemecdn.com/ethan4116-blog/lib/js/other/two-people/zdog.dist.js"></script><script id="rendered-js" src="https://npm.elemecdn.com/ethan4116-blog/lib/js/other/two-people/twopeople.js"></script><style>.card-widget.card-announcement {
+margin: 0;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+canvas {
+display: block;
+margin: 0 auto;
+cursor: move;
+}</style><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B%EF%BC%8C%E9%9D%9E%E4%B8%93%E4%B8%9A-%E8%B4%A2%E7%BB%8F%E5%A4%B4%E6%9D%A1"><span class="toc-number">1.</span> <span class="toc-text">Emby多媒体影音服务保姆教程，非专业__财经头条</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Excerpt"><span class="toc-number">1.1.</span> <span class="toc-text">Excerpt</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/" title="emby打造家庭影院"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img-api.boxmoe.com//large/0072Vf1pgy1foxlhgd2lzj31hc0u0dvn.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="emby打造家庭影院"/></a><div class="content"><a class="title" href="/2023/01/09/Emby%E5%A4%9A%E5%AA%92%E4%BD%93%E5%BD%B1%E9%9F%B3%E6%9C%8D%E5%8A%A1%E4%BF%9D%E5%A7%86%E6%95%99%E7%A8%8B/" title="emby打造家庭影院">emby打造家庭影院</a><time datetime="2023-01-09T08:28:08.000Z" title="发表于 2023-01-09 16:28:08">2023-01-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/19/%E7%A1%AC%E4%BB%B6%E8%8C%B6%E8%B0%88/" title="硬件茶谈"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http:///p1.qhimg.com/t01662406687cf7219b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="硬件茶谈"/></a><div class="content"><a class="title" href="/2022/12/19/%E7%A1%AC%E4%BB%B6%E8%8C%B6%E8%B0%88/" title="硬件茶谈">硬件茶谈</a><time datetime="2022-12-19T06:45:33.000Z" title="发表于 2022-12-19 14:45:33">2022-12-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/16/%E6%98%BE%E7%A4%BA%E5%99%A8/" title="显示器科普"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.horosama.com/api/image_all/anime/1080p/pc/2Afd18Dfd3C531cB99b940FDbB9cecba.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="显示器科普"/></a><div class="content"><a class="title" href="/2022/12/16/%E6%98%BE%E7%A4%BA%E5%99%A8/" title="显示器科普">显示器科普</a><time datetime="2022-12-16T06:45:33.000Z" title="发表于 2022-12-16 14:45:33">2022-12-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/13/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E7%B3%BB%E5%88%97/" title="节点搭建系列"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://raw.githubusercontent.com/godwad/tuchuang/main/2022/12wallpaper1670910721466.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="节点搭建系列"/></a><div class="content"><a class="title" href="/2022/12/13/%E8%8A%82%E7%82%B9%E6%90%AD%E5%BB%BA%E7%B3%BB%E5%88%97/" title="节点搭建系列">节点搭建系列</a><time datetime="2022-12-13T06:45:33.000Z" title="发表于 2022-12-13 14:45:33">2022-12-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/13/%E5%9B%BE%E5%BA%8A/" title="图床"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/12/13/lrrtk9.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="图床"/></a><div class="content"><a class="title" href="/2022/12/13/%E5%9B%BE%E5%BA%8A/" title="图床">图床</a><time datetime="2022-12-13T04:08:31.000Z" title="发表于 2022-12-13 12:08:31">2022-12-13</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 小宋今天吃什么</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div>-<canvas id="snow"></canvas> -<script async src="/js/snow.js"></script> -<script data-pjax src="//npm.elemecdn.com/pace-js@1.2.4/pace.min.js"></script> -<div class="aplayer no-destroy" data-id="3933869104" data-server="tencent" data-type="playlist" data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div> -<script src="/js/ali_font.js"></script> -<script src="/js/runtime.js"></script> -<script defer data-pjax src="/js/rightmenu.js"></script> -<script data-pjax defer src="https://npm.elemecdn.com/tzy-blog/lib/js/theme/chocolate.js"></script>
+-<script src="/js/title.js"></script> -<canvas id="universe"></canvas> -<linkrel="stylesheet"href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css"> -<scriptsrc="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script> -<scriptsrc="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script> -<script defer src="/js/cursor.js"></script> -<script defer data-pjax src="/js/cat.js"></script> -<script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
+
+
+-<script defer src="/js/universe.js"></script> -<script defer src="/js/light.js"></script><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '112.6534116,27.96920845';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.js"></script><script async src="/js/ali_font.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item swiper_container_card" style="height: auto;width: 100%"><div id="random"><div id="random-banner"><canvas id="peoplecanvas"></canvas></div><a id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()" rel="external nofollow noreferrer" one-link-mark="yes"><i class="fa fa-paper-plane" style="margin-left:10px"></i><div style="margin-left:10px">随便逛逛<i class="fa-solid fa-arrow-right" style="margin-left:10px"></i></div></a></div><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;2022/12/13/节点搭建系列/&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://raw.githubusercontent.com/godwad/tuchuang/main/2022/12wallpaper1670910721466.jpg" alt="" onerror="this.src=https://cdn.cbd.int/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-12-13</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;2022/12/13/节点搭建系列/&quot;);" href="javascript:void(0);" alt="">节点搭建系列</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;2022/12/13/节点搭建系列/&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;2022/11/29/Markdown语法/&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/30/w4zx6u.jpg" alt="" onerror="this.src=https://cdn.cbd.int/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-11-29</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;2022/11/29/Markdown语法/&quot;);" href="javascript:void(0);" alt="">Markdown书写语法</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;2022/11/29/Markdown语法/&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;2022/11/28/不觉得这很酷吗？/&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/30/w4zefq.jpg" alt="" onerror="this.src=https://cdn.cbd.int/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-11-28</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;2022/11/28/不觉得这很酷吗？/&quot;);" href="javascript:void(0);" alt="">作为一个理工男我觉得这太酷了</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;2022/11/28/不觉得这很酷吗？/&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;2022/11/18/原神典中典/&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/24/h4wbvc.jpg" alt="" onerror="this.src=https://cdn.cbd.int/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-11-18</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;2022/11/18/原神典中典/&quot;);" href="javascript:void(0);" alt="">你的素质很差</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;2022/11/18/原神典中典/&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;2022/11/19/迄今为止还未解决的错误/&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img9999.wchunge.cn/i/2022/11/24/h2ot24.jpg" alt="" onerror="this.src=https://cdn.cbd.int/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-11-19</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;2022/11/19/迄今为止还未解决的错误/&quot;);" href="javascript:void(0);" alt="">有待解决的错误</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;2022/11/19/迄今为止还未解决的错误/&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/js/swiper.min.js"></script><script defer data-pjax src="https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/swiper_init.js"></script><script data-pjax src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper-anzhiyu@1.0.4/lib/people.min.js"></script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '1.5s');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '30');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '200ms');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('flink-list-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__flipInY');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('flink-list-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__animated');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('article-sort-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__slideInRight');
+    arr[i].setAttribute('data-wow-duration', '1.5s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('site-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__flipInY');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script><script async="async">var arr = document.getElementsByClassName('site-card');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__animated');
+    arr[i].setAttribute('data-wow-duration', '3s');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://cdn.cbd.int/hexo-butterfly-wowjs/lib/wow_init.js"></script><script data-pjax>
+  function butterfly_footer_beautify_injector_config(){
+    var parent_div_git = document.getElementById('footer-wrap');
+    var item_html = '<div id="workboard"></div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&amp;logo=hexo" alt=""/></a><a class="github-badge" target="_blank" href="https://butterfly.js.org/" style="margin-inline:5px" data-title="主题使用Butterfly" title=""><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&amp;logo=bitdefender" alt=""/></a></p>';
+    console.log('已挂载butterfly_footer_beautify')
+    parent_div_git.insertAdjacentHTML("beforeend",item_html)
+    }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_footer_beautify_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_footer_beautify_injector_config();
+  }
+  </script><script async src="/js/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.js"></script><script data-pjax>
+    function butterfly_categories_card_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<style>li.categoryBar-list-item{width:32.3%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/n8puf6.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/家庭影院/&quot;);" href="javascript:void(0);">家庭影院</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/h62jv1.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/Markdown/&quot;);" href="javascript:void(0);">Markdown</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/n8pm3q.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/设置/&quot;);" href="javascript:void(0);">设置</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/n8q4z7.png);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/如何xxx/&quot;);" href="javascript:void(0);">如何xxx</a><span class="categoryBar-list-count">5</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/nhj4rq.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/ps/&quot;);" href="javascript:void(0);">ps</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://pic2.zhimg.com/80/v2-de05f7e91e0b99f9c277757c1192ba95_720w.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/tokens/&quot;);" href="javascript:void(0);">tokens</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/nf6gur.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/modern/&quot;);" href="javascript:void(0);">modern</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/nf6do5.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/典中典/&quot;);" href="javascript:void(0);">典中典</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/nf6kr1.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/图片/&quot;);" href="javascript:void(0);">图片</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(https://img9999.wchunge.cn/i/2022/11/24/nf6ob0.jpg);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/technology/&quot;);" href="javascript:void(0);">technology</a><span class="categoryBar-list-count">3</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(undefined);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/失败是成功之母/&quot;);" href="javascript:void(0);">失败是成功之母</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li><li class="categoryBar-list-item" style="background:url(undefined);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/报错肿么办？/&quot;);" href="javascript:void(0);">报错肿么办？</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr"></span></li></ul></div></div>';
+      console.log('已挂载butterfly_categories_card')
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      }
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    butterfly_categories_card_injector_config()
+    }
+  </script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-shizuku"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body></html>
