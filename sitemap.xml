@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://godwad.github.io/2023/01/10/chatgpt/</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://godwad.github.io/2023/01/10/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87/</loc>
     
     <lastmod>2023-01-10</lastmod>
@@ -297,21 +306,14 @@
   </url>
   
   <url>
-    <loc>https://godwad.github.io/tags/ps/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://godwad.github.io/tags/tokens/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://godwad.github.io/tags/%E8%AE%BE%E7%BD%AE/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://godwad.github.io/tags/ps/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -325,6 +327,13 @@
   </url>
   
   <url>
+    <loc>https://godwad.github.io/tags/tokens/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://godwad.github.io/tags/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -332,14 +341,14 @@
   </url>
   
   <url>
-    <loc>https://godwad.github.io/tags/picture/</loc>
+    <loc>https://godwad.github.io/tags/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://godwad.github.io/tags/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7/</loc>
+    <loc>https://godwad.github.io/tags/picture/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -390,21 +399,14 @@
   </url>
   
   <url>
-    <loc>https://godwad.github.io/categories/ps/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://godwad.github.io/categories/tokens/</loc>
-    <lastmod>2023-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://godwad.github.io/categories/%E5%A6%82%E4%BD%95xxx/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://godwad.github.io/categories/ps/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,7 +420,7 @@
   </url>
   
   <url>
-    <loc>https://godwad.github.io/categories/%E5%9B%BE%E7%89%87/</loc>
+    <loc>https://godwad.github.io/categories/tokens/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -426,6 +428,13 @@
   
   <url>
     <loc>https://godwad.github.io/categories/%E5%85%B8%E4%B8%AD%E5%85%B8/</loc>
+    <lastmod>2023-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://godwad.github.io/categories/%E5%9B%BE%E7%89%87/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

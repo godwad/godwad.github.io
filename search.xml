@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>ChatGPT</title>
+      <link href="/2023/01/10/chatgpt/"/>
+      <url>/2023/01/10/chatgpt/</url>
+      
+        <content type="html"><![CDATA[<p>前几天，OpenAI 推出超神 ChatGPT ，非常火爆。但是呢，因为不可抗力原因，大部分人无法体验到。这里我分享一下注册的攻略。</p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><ul><li>首先能能访问 Google （前置条件，不能明确说，懂得都懂）</li><li>你得有一个国外手机号，GV 号肯定不行。<ul><li>如果你没有国外手机号，推荐 <a href="http://sms-activate.org/">sms-activate.org</a></li></ul></li></ul><h3 id="注册短信平台并充值"><a href="#注册短信平台并充值" class="headerlink" title="注册短信平台并充值"></a>注册短信平台并充值</h3><ul><li>先行注册 <a href="http://sms-activate.org/">sms-activate.org</a></li><li>注册好之后进行对应的充值</li></ul><p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8acaf6d767714b1d82122cd3206f4ba7~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"> 接码费用一次为 10.5 卢布，大约 1.2 人民币。因为充值默认为美元，可以选择充值 1 美元进去，</p><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5c507b1564d1442d8dfab0ebc8d481e1~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p><h3 id="注册-OpenAI-账号"><a href="#注册-OpenAI-账号" class="headerlink" title="注册 OpenAI 账号"></a>注册 OpenAI 账号</h3><ul><li>打开</li></ul><p>  <a href="https://beta.openai.com/signup">https://beta.openai.com/signup</a></p><p>  页面进行相应的注册。</p><ul><li>这里同样需要你能访问 Google 且 ip 不是香港，最好是美国、新加坡等等，不然会提示不能在当前国家服务。</li></ul><ul><li>注册成功进入下面填写手机号的页面</li></ul><p><img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d50d22c04df0430aa0b2afca70a55beb~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p><h3 id="准备接码"><a href="#准备接码" class="headerlink" title="准备接码"></a>准备接码</h3><blockquote><p>这里需要注意下的就是，目前好像就只有巴西和印度支持了，之前我选的印尼，是可以收到码的。</p></blockquote><p><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/79235be8d7104175a6dda1cc63f46937~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p><p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c2e4434858ab4cbaaa9e1d8249305547~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p><ul><li>然后再刚刚填写手机号码的页面填入申请的手机号</li></ul><h3 id="开始使用-ChatGPT"><a href="#开始使用-ChatGPT" class="headerlink" title="开始使用 ChatGPT"></a>开始使用 ChatGPT</h3><p>注册完后，我们去 ChatGPT 网站去登陆。<a href="https://chat.openai.com/auth/login">https://chat.openai.com/auth/login</a></p><p><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3e474b55d15d4b8ea3c56e7deb5ce8f9~tplv-k3u1fbpfcp-watermark.image?" alt="image.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于视频码率的一些问题</title>
       <link href="/2023/01/10/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87/"/>
       <url>/2023/01/10/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87/</url>
@@ -134,7 +147,7 @@
       <link href="/2022/11/29/Markdown%E8%AF%AD%E6%B3%95/"/>
       <url>/2022/11/29/Markdown%E8%AF%AD%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<p><strong><em><a href="https://www.fomal.cc/posts/2013454d.html">https://www.fomal.cc/posts/2013454d.html</a></em></strong></p><p>Markdown 标题语法<br>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (</p><p>) (例如：### My Header)。<br>Heading level 1<br>一级标题</p><p>Heading level 2<br>二级标题</p><p>Heading level 3<br>三级标题</p><p>Heading level 4<br>四级标题</p><p>Heading level 5<br>五级标题</p><p>Heading level 6<br>六级标题</p><p>请用一个空格在 # 和标题之间进行分隔。<br>代码<br>在代码前后各敲上加上 ` 即可（小键盘数字1左边)<br>如</p><p>int main(){ return; }</p><p>Markdown 围栏代码块<br>Markdown基本语法允许您通过将行缩进四个空格或一个制表符来创建代码块。如果发现不方便，请尝试使用受保护的代码块。根据Markdown处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号(```）或三个波浪号（~~~）。</p><p>{<br>    <code>&#123;&quot;firstName&quot;: &quot;John&quot;,    &quot;lastName&quot;: &quot;Smith&quot;,    &quot;age&quot;: 25&#125;</code><br>}<br>呈现的输出如下所示：</p><p>{<br>  {“firstName”: “John”,<br>  “lastName”: “Smith”,<br>  “age”: 25}<br>}<br>Tip:要在代码块中显示反引号？请参阅了解如何转义它们。</p><p>语法高亮<br>许多Markdown处理器都支持受围栏代码块的语法突出显示。使用此功能，您可以为编写代码的任何语言添加颜色突出显示。要添加语法突出显示，请在受防护的代码块之前的反引号旁边指定一种语言。</p><p>{</p><pre><code class="lang-c++">  &#123;&quot;firstName&quot;: &quot;John&quot;,  &quot;lastName&quot;: &quot;Smith&quot;,  &quot;age&quot;: 25</code></pre><p>  }<br>}<br>呈现的输出如下所示：</p><p>{<br>  “firstName”: “John”,<br>  “lastName”: “Smith”,<br>  “age”: 25<br>}<br>图片<br><img src="地址" alt="这是图片" title="鼠标悬停所显示内容"></p><p>加粗<br>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。</p><p>I just love <strong>bold text</strong>. 或I just love <strong>bold text</strong>. 效果为 I just love bold text.</p><p>斜体<br>与加粗类似，但只需加一个星号或下划线即可<br>如*love 效果为 love</p><p>粗体和斜体同时使用<br>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。<br>如This text is <strong><em>really important</em></strong>. 效果为 This text is really important.</p><p>引用(推荐使用！)<br>要创建块引用，请在段落前添加一个 &gt; 符号。</p><blockquote><p>love为</p></blockquote><p>love</p><p>多个段落的块引用<br>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p><blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote><p>渲染效果如下：</p><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p><p>嵌套块引用<br>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。</p><blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.<br>渲染效果如下：</p></blockquote></blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p><p>First item<br>Second item<br>Third item<br>Fourth item<br>链接<br>简单语法<br>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p><p>超链接Markdown语法代码：<a href="超链接地址" title="超链接title">超链接显示名</a></p><p>对应的HTML代码：<a href="超链接地址" title="超链接title">超链接显示名</a></p><p>这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。<br>渲染效果如下：</p><p>这是一个链接 Markdown语法。</p><p>给链接增加 Title<br>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p><p>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。<br>渲染效果如下：<br>这是一个链接 Markdown语法。</p><p>网址和Email地址<br>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p><p><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#102;&#x61;&#107;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#111;&#109;">&#102;&#x61;&#107;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#x6c;&#x65;&#46;&#x63;&#111;&#109;</a><br>渲染效果如下：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br>fake@example.com</p><p>带格式化的链接<br>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p><p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>See the section on <a href="#code">code</a>.<br>渲染效果如下：<br>I love supporting the EFF.<br>This is the Markdown Guide.<br>See the section on code.</p><p>markdown 删除线<br>您可以通过在单词中心放置一条水平线来删除单词。结果看起来像这样`。此功能使您可以指示某些单词是一个错误，要从文档中删除。若要删除单词，请在单词前后使用两个波浪号~~。</p><p><del>世界是平坦的。</del> 我们现在知道世界是圆的。<br>呈现的输出如下所示：</p><p>世界是平坦的。 我们现在知道世界是圆的。</p><p>Markdown 任务列表语法<br>任务列表使您可以创建带有复选框的项目列表。在支持任务列表的Markdown应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加破折号-和方括号[ ]，并在[ ]前面加上空格。要选择一个复选框，请在方括号[x]之间添加 x 。</p><ul><li>[√] Write the press release</li><li>[×] Update the website</li><li>[ ] Contact the media</li></ul><p>呈现的输出如下所示：<br>[√] Write the press release<br>[× ] Update the website<br>[ ] Contact the media<br>自动网址链接<br>许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入<a href="http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。">http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。</a></p><p><a href="http://www.example.com">http://www.example.com</a></p><p>呈现的输出如下所示：<br><a href="http://www.example.com">http://www.example.com</a></p><p>禁用自动URL链接<br>如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。</p><p><code>http://www.example.com</code></p><p>呈现的输出如下所示：<br><a href="http://www.example.com">http://www.example.com</a></p>]]></content>
+        <content type="html"><![CDATA[<p><strong><em><a href="https://www.fomal.cc/posts/2013454d.html">https://www.fomal.cc/posts/2013454d.html</a></em></strong></p><p>Markdown 标题语法<br>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (</p><p>) (例如：### My Header)。<br>Heading level 1<br>一级标题</p><p>Heading level 2<br>二级标题</p><p>Heading level 3<br>三级标题</p><p>Heading level 4<br>四级标题</p><p>Heading level 5<br>五级标题</p><p>Heading level 6<br>六级标题</p><p>请用一个空格在 # 和标题之间进行分隔。<br>代码<br>在代码前后各敲上加上 ` 即可（小键盘数字1左边)<br>如</p><p>int main(){ return; }</p><p>Markdown 围栏代码块<br>Markdown基本语法允许您通过将行缩进四个空格或一个制表符来创建代码块。如果发现不方便，请尝试使用受保护的代码块。根据Markdown处理器或编辑器的不同，您将在代码块之前和之后的行上使用三个反引号(```）或三个波浪号（~~~）。</p><p>{<br>    <code>&#123;&quot;firstName&quot;: &quot;John&quot;,    &quot;lastName&quot;: &quot;Smith&quot;,    &quot;age&quot;: 25&#125;</code><br>}<br>呈现的输出如下所示：</p><p>{<br>  {“firstName”: “John”,<br>  “lastName”: “Smith”,<br>  “age”: 25}<br>}<br>Tip:要在代码块中显示反引号？请参阅了解如何转义它们。</p><p>语法高亮<br>许多Markdown处理器都支持受围栏代码块的语法突出显示。使用此功能，您可以为编写代码的任何语言添加颜色突出显示。要添加语法突出显示，请在受防护的代码块之前的反引号旁边指定一种语言。</p><p>{</p><pre><code class="lang-c++">  &#123;&quot;firstName&quot;: &quot;John&quot;,  &quot;lastName&quot;: &quot;Smith&quot;,  &quot;age&quot;: 25</code></pre><p>  }<br>}<br>呈现的输出如下所示：</p><p>{<br>  “firstName”: “John”,<br>  “lastName”: “Smith”,<br>  “age”: 25<br>}<br>图片<br><img src="地址" alt="这是图片" title="鼠标悬停所显示内容"></p><p>加粗<br>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。</p><p>I just love <strong>bold text</strong>. 或I just love <strong>bold text</strong>. 效果为 I just love bold text.</p><p>斜体<br>与加粗类似，但只需加一个星号或下划线即可<br>如*love 效果为 love</p><p>粗体和斜体同时使用<br>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。<br>如This text is <strong><em>really important</em></strong>. 效果为 This text is really important.</p><p>引用(推荐使用！)<br>要创建块引用，请在段落前添加一个 &gt; 符号。</p><blockquote><p>love为</p></blockquote><p>love</p><p>多个段落的块引用<br>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p><blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote><p>渲染效果如下：</p><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p><p>嵌套块引用<br>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。</p><blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.<br>渲染效果如下：</p></blockquote></blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p><p>First item<br>Second item<br>Third item<br>Fourth item<br>链接<br>简单语法<br>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p><p>超链接Markdown语法代码：<a href="超链接地址" title="超链接title">超链接显示名</a></p><p>对应的HTML代码：<a href="超链接地址" title="超链接title">超链接显示名</a></p><p>这是一个链接 <a href="https://markdown.com.cn">Markdown语法</a>。<br>渲染效果如下：</p><p>这是一个链接 Markdown语法。</p><p>给链接增加 Title<br>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p><p>这是一个链接 <a href="https://markdown.com.cn" title="最好的markdown教程">Markdown语法</a>。<br>渲染效果如下：<br>这是一个链接 Markdown语法。</p><p>网址和Email地址<br>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p><p><a href="https://markdown.com.cn">https://markdown.com.cn</a><br><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#102;&#97;&#107;&#x65;&#x40;&#x65;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#102;&#97;&#107;&#x65;&#x40;&#x65;&#x78;&#97;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a><br>渲染效果如下：<br><a href="https://markdown.com.cn">https://markdown.com.cn</a><br>fake@example.com</p><p>带格式化的链接<br>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p><p>I love supporting the <strong><a href="https://eff.org">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org">Markdown Guide</a></em>.<br>See the section on <a href="#code">code</a>.<br>渲染效果如下：<br>I love supporting the EFF.<br>This is the Markdown Guide.<br>See the section on code.</p><p>markdown 删除线<br>您可以通过在单词中心放置一条水平线来删除单词。结果看起来像这样`。此功能使您可以指示某些单词是一个错误，要从文档中删除。若要删除单词，请在单词前后使用两个波浪号~~。</p><p><del>世界是平坦的。</del> 我们现在知道世界是圆的。<br>呈现的输出如下所示：</p><p>世界是平坦的。 我们现在知道世界是圆的。</p><p>Markdown 任务列表语法<br>任务列表使您可以创建带有复选框的项目列表。在支持任务列表的Markdown应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加破折号-和方括号[ ]，并在[ ]前面加上空格。要选择一个复选框，请在方括号[x]之间添加 x 。</p><ul><li>[√] Write the press release</li><li>[×] Update the website</li><li>[ ] Contact the media</li></ul><p>呈现的输出如下所示：<br>[√] Write the press release<br>[× ] Update the website<br>[ ] Contact the media<br>自动网址链接<br>许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入<a href="http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。">http://www.example.com，即使您未使用方括号，您的Markdown处理器也会自动将其转换为链接。</a></p><p><a href="http://www.example.com">http://www.example.com</a></p><p>呈现的输出如下所示：<br><a href="http://www.example.com">http://www.example.com</a></p><p>禁用自动URL链接<br>如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。</p><p><code>http://www.example.com</code></p><p>呈现的输出如下所示：<br><a href="http://www.example.com">http://www.example.com</a></p>]]></content>
       
       
       <categories>
@@ -318,31 +331,6 @@
     
     
     <entry>
-      <title>图片网址大全</title>
-      <link href="/2022/11/18/%E5%9B%BE%E7%89%87%E7%BD%91%E5%9D%80%E8%87%AA%E5%8F%96/"/>
-      <url>/2022/11/18/%E5%9B%BE%E7%89%87%E7%BD%91%E5%9D%80%E8%87%AA%E5%8F%96/</url>
-      
-        <content type="html"><![CDATA[<p>图片网址</p><ol><li><p>Awesome Wallpapers<br>官网：<a href="https://wallhaven.cc/">https://wallhaven.cc/</a><br>分辨率：~8K<br>下载方式：直接下载</p></li><li><p>极简壁纸<br>官网：<a href="https://bz.zzzmh.cn/#anime">https://bz.zzzmh.cn/#anime</a><br>分辨率：~8K<br>下载方式：直接下载</p></li><li><p>美桌网<br>官网：<a href="http://www.win4000.com/zt/dongman.html">http://www.win4000.com/zt/dongman.html</a><br>分辨率：~2K<br>下载方式：直接下载</p></li><li><p>路游动漫图片壁纸网<br>官网：<a href="https://www.roame.net/">https://www.roame.net/</a><br>分辨率：高低都有<br>下载方式：需要登陆</p></li><li><p>Anime Wallpapers<br>官网：<a href="http://konachan.net/post">http://konachan.net/post</a><br>分辨率：~4K<br>下载方式：直接下载</p></li><li><p>Wallpaper Abyss<br>官网：<a href="https://wall.alphacoders.com/">https://wall.alphacoders.com/</a><br>分辨率：~8K<br>下载方式：直接下载</p></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 图片 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> picture </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>你的素质很差</title>
       <link href="/2022/11/18/%E5%8E%9F%E7%A5%9E%E5%85%B8%E4%B8%AD%E5%85%B8/"/>
       <url>/2022/11/18/%E5%8E%9F%E7%A5%9E%E5%85%B8%E4%B8%AD%E5%85%B8/</url>
@@ -379,6 +367,31 @@
         <tags>
             
             <tag> 如何评价 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>图片网址大全</title>
+      <link href="/2022/11/18/%E5%9B%BE%E7%89%87%E7%BD%91%E5%9D%80%E8%87%AA%E5%8F%96/"/>
+      <url>/2022/11/18/%E5%9B%BE%E7%89%87%E7%BD%91%E5%9D%80%E8%87%AA%E5%8F%96/</url>
+      
+        <content type="html"><![CDATA[<p>图片网址</p><ol><li><p>Awesome Wallpapers<br>官网：<a href="https://wallhaven.cc/">https://wallhaven.cc/</a><br>分辨率：~8K<br>下载方式：直接下载</p></li><li><p>极简壁纸<br>官网：<a href="https://bz.zzzmh.cn/#anime">https://bz.zzzmh.cn/#anime</a><br>分辨率：~8K<br>下载方式：直接下载</p></li><li><p>美桌网<br>官网：<a href="http://www.win4000.com/zt/dongman.html">http://www.win4000.com/zt/dongman.html</a><br>分辨率：~2K<br>下载方式：直接下载</p></li><li><p>路游动漫图片壁纸网<br>官网：<a href="https://www.roame.net/">https://www.roame.net/</a><br>分辨率：高低都有<br>下载方式：需要登陆</p></li><li><p>Anime Wallpapers<br>官网：<a href="http://konachan.net/post">http://konachan.net/post</a><br>分辨率：~4K<br>下载方式：直接下载</p></li><li><p>Wallpaper Abyss<br>官网：<a href="https://wall.alphacoders.com/">https://wall.alphacoders.com/</a><br>分辨率：~8K<br>下载方式：直接下载</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图片 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> picture </tag>
             
         </tags>
       
