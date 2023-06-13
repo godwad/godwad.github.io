@@ -976,11 +976,11 @@
     
     
     <entry>
-      <title>如何设置文章图片</title>
-      <link href="/posts/63931.html"/>
-      <url>/posts/63931.html</url>
+      <title>如何设置背景音乐 虚拟人物和追番列表</title>
+      <link href="/posts/33365.html"/>
+      <url>/posts/33365.html</url>
       
-        <content type="html"><![CDATA[<p>在butterfly config中搜索background（后面有url标识的）<br>修改链接即可<br>如何导入本地图片？<br>百度搜索图床，将已有图片上传即可获得url（不稳定）<br>新增文章在cover处定义即可<br>设置主页打字机效果文字在config文件中修改subtitle即可（需要现在butterfly配置文件中设置其为true）</p>]]></content>
+        <content type="html"><![CDATA[<p>原链接 <a href="https://anzhiy.cn/posts/sdxhu.html#%E8%BF%BD%E7%95%AA%E6%8F%92%E4%BB%B6">https://anzhiy.cn/posts/sdxhu.html#追番插件</a></p><p>aplayer音乐播放器<br>1.npm install hexo-tag-aplayer --save<br>2.找到config文件中<br>aplayerInject:<br>enable: true（原为false）<br>per_page: true<br>3.找到config文件夹中bottom<br>粘贴</p>]]></content>
       
       
       <categories>
@@ -995,11 +995,11 @@
     
     
     <entry>
-      <title>如何设置背景音乐 虚拟人物和追番列表</title>
-      <link href="/posts/33365.html"/>
-      <url>/posts/33365.html</url>
+      <title>如何设置文章图片</title>
+      <link href="/posts/63931.html"/>
+      <url>/posts/63931.html</url>
       
-        <content type="html"><![CDATA[<p>原链接 <a href="https://anzhiy.cn/posts/sdxhu.html#%E8%BF%BD%E7%95%AA%E6%8F%92%E4%BB%B6">https://anzhiy.cn/posts/sdxhu.html#追番插件</a></p><p>aplayer音乐播放器<br>1.npm install hexo-tag-aplayer --save<br>2.找到config文件中<br>aplayerInject:<br>enable: true（原为false）<br>per_page: true<br>3.找到config文件夹中bottom<br>粘贴</p>]]></content>
+        <content type="html"><![CDATA[<p>在butterfly config中搜索background（后面有url标识的）<br>修改链接即可<br>如何导入本地图片？<br>百度搜索图床，将已有图片上传即可获得url（不稳定）<br>新增文章在cover处定义即可<br>设置主页打字机效果文字在config文件中修改subtitle即可（需要现在butterfly配置文件中设置其为true）</p>]]></content>
       
       
       <categories>
