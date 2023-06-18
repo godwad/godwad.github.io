@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://godwad.github.io/posts/b27ebf21.html</loc>
+    
+    <lastmod>2023-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://godwad.github.io/posts/2d57d79b.html</loc>
     
     <lastmod>2023-06-18</lastmod>
@@ -801,6 +810,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://godwad.github.io/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -994,6 +1010,13 @@
   
   <url>
     <loc>https://godwad.github.io/categories/DIY/</loc>
+    <lastmod>2023-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://godwad.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2023-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
